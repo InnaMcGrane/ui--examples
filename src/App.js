@@ -103,7 +103,7 @@ function App() {
 
   return(
     <div>
-      <h1>{t("Welcome to React")}</h1>
+      <h1>{t('Welcome to React')}</h1>
       <button onClick={toggleLang}>
         {i18n.language === 'en' ? "RU" : "EN"}
       </button>
